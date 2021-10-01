@@ -1,0 +1,26 @@
+li{
+    color: cadetblue;
+    border: cyan;
+    text-shadow: 1px 1px 1px indigo;
+    
+}
+a{
+    color:darkcyan;
+    text-decoration: none;
+}
+h1{
+    color:rgb(206, 89, 186);
+    text-shadow:1px 1px 1px indigo;
+    
+    border: 5px green;
+}
+a:hover{
+    color: rgb(224, 31, 31);
+}
+p{
+    color: slateblue;
+    border: lawngreen;
+
+}
+        
+ 
