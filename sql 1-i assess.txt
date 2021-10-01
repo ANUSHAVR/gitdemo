@@ -1,0 +1,15 @@
+sql 1.1
+
+1)create table route (id int(11),route_name varchar(255) NOT NULL,PRIMARY KEY(id));
+2)create table  station(id int(11),name varchar(100) NOT NULL,locality varchar(100) NOT NULL,is_interchange tinyint(1),PRIMARY KEY(id));
+3)alter table station Change locality station_locality varchar(100);
+4)alter table station rename station_details;
+5)drop table  station_details;
+
+sql 1.2
+
+1)insert into route values(1,'a'),(2,'ac'),(13,'a'),(132,'anu');
+2)insert into station values (101,'ncj','kk',9),(102,'nj','kdk',7),(1010,'ncjd','kkd',2),(104,'nsscj','kkss',4);
+3)update route set route_name='South West line' where route_name='East West line';
+4)update station set locality='21 Changi South Avenue 1, Singapore' where name='Expo MRT Station';
+5)delete from station where name= 'Kovan MRT station';
